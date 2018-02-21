@@ -12,6 +12,7 @@ Prolog was one of the first logic programming languages, and remains the most po
 
 Prolog is well-suited for specific tasks that benefit from rule-based logical queries such as searching databases, voice control systems, and filling templates. **Source* *Wikipedia*
 
-## Instalation 
-There are a lot available Prolog IDEs and you may refer to [Stackoverflow](https://stackoverflow.com/questions/5277263/good-ide-to-get-started-with-prolog) to see some available IDEs examples, but I personally use [SWI-Prolog](http://www.swi-prolog.org/) for my own use. The LPA Prolog was suggested 
-in our University (University Utara Malaysia), but I prefer SWI-Prolog. 
+## Prolog IDEs 
+There are a lot available Prolog IDEs and you may refer to [Stackoverflow](https://stackoverflow.com/questions/5277263/good-ide-to-get-started-with-prolog) to see some available IDEs examples, but I personally use [SWI-Prolog](http://www.swi-prolog.org/) for my own use. The [LPA Prolog](http://www.lpa.co.uk/) was suggested in our University (University Utara Malaysia), but I prefer SWI-Prolog. 
+
+
