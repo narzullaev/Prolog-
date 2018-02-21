@@ -23,8 +23,8 @@ translate(makan, X).
 **The second rule:**
 
 ```
-translate(English, Malay):-
-means(Malay, English).
+translate(Malay, English):-
+means(English, Malay).
 ```
 translates English words to Malay. You can test this by simply typing "translate(any english word from the list of 19 words, X ).
 
