@@ -22,7 +22,7 @@ translate(makan, X).
 
 **The second rule:**
 
-```
+```prolog
 translate(Malay, English):-
 means(English, Malay).
 ```
