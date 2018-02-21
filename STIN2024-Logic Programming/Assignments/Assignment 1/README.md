@@ -29,3 +29,5 @@ means(English, Malay).
 translates English words to Malay. You can test this by simply typing "translate(any english word from the list of 19 words, X ).
 
 ![image](https://user-images.githubusercontent.com/33327894/36488405-56eeb118-175e-11e8-94ac-124dca36e7db.png)
+
+*If you have other solutions, suggestions or feedbacks you are welcome to comment*
