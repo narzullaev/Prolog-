@@ -1,7 +1,7 @@
 # Assignment 1
 ## Description
 
-This assignmebt was given from STIN2024 - Logic Programmins as Assignemnet 1 from the series of Assignments. We were asked to 
+This assignmebt was given from **STIN2024 -Logic Programmins** as Assignemnet 1 from the series of Assignments. We were asked to 
 build a small program to translate list of English words into Malay and vice versa. For this, first, I created list of facts which 
 consists of 19 english words with its meaning in Malay. Then I created 2 rules to simulate the program. 
 
