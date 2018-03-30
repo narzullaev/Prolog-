@@ -43,22 +43,19 @@ in(primate, mammal).
 /*mammal tree finishes here*/
 
 in(mammal, chordate)
-/*Chordate tree finishes here*/
-
 in(chordate, animalia).
 in(arthropoda, animalia).
 /*animal Kingdom tree finishes here*/
 
 go:-
 nl,
-write('What animal would you like to check?: '),
-nl,
+write('What animal would you like to check?: '),nl,
 read(X),
 trace(X).
 
 
 is_in(X,Y):-
-in(X,Y).
+!, in(X,Y).
 
 is_in(X,Y):-
 in(X,T),
@@ -67,22 +64,17 @@ is_in(T,Y).
 
 trace(X):-
 nl,nl,
-is_in(X,Y),
-write(X),
+!, is_in(X,Y),
+write(X), 
 write(' is a '),
-write(Y)
-nl, nl,
+write(Y), nl,
 restart.
 
 
-is_in(X,Y):-
-write('Invalid animal detected!'),
-nl.
-
 restart :-
-	nl,nl, write('Would you like to continue? (yes or  no)'),
-	read(Y),
-	continue(Y).
+	nl, write('Would you like to continue? (yes or  no): '), nl, 
+	read(R),
+	continue(R).
 continue(no):-
 	write('SESSION END. THANK YOU.') ,nl,!.
 continue(yes) :-
