@@ -56,6 +56,15 @@ nl,
 read(X),
 trace(X).
 
+
+is_in(X,Y):-
+in(X,Y).
+
+is_in(X,Y):-
+in(X,T),
+is_in(T,Y).
+
+
 trace(X):-
 nl,nl,
 is_in(X,Y),
@@ -66,20 +75,13 @@ nl, nl,
 restart.
 
 
-is_in(X,Y):-
-in(X,Y).
-
-is_in(X,Y):-
-in(X,T),
-is_in(T,Y).
-
-is_in(X,Y):-
-write('Invalid animal detected!'),
-nl.
+#is_in(X,Y):-
+#write('Invalid animal detected!'),
+#nl.
 
 restart :-
-	nl,nl,
-	write('Would you like to continue? (yes or  no)'),
+	nl,nl
+,	write('Would you like to continue? (yes or  no)'),
 	read(Y),
 	continue(Y).
 continue(no):-
