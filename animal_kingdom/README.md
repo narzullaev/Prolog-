@@ -74,4 +74,12 @@ continue(yes) :-
  To test the project please download and run 'animalKingdom.pl'
 
 
- 
+ ## Contributors 
+
+-Sardor Narzullaev <mr.narzullaev@gmail.com>
+
+## Liicence and Copyright 
+
+Copyright (c) 2018 Sardor Narzullaev
+
+Licensed under [MIT License](LICENCE)
