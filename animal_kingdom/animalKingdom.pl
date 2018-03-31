@@ -42,7 +42,7 @@ in(carnivora, mammal).
 in(primate, mammal).
 /*mammal tree finishes here*/
 
-in(mammal, chordate)
+in(mammal, chordate).
 in(chordate, animalia).
 in(arthropoda, animalia).
 /*animal Kingdom tree finishes here*/
