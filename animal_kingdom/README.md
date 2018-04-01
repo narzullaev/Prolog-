@@ -75,8 +75,9 @@ continue(yes) :-
 
 
  ## Contributors 
+- Sardor Narzullaev <mr.narzullaev@gmail.com>
+- Ong Jing Wen <wen_ojw@hotmail.com> 
 
--Sardor Narzullaev <mr.narzullaev@gmail.com>
 
 ## Liicence and Copyright 
 
